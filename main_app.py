@@ -25,7 +25,7 @@ class PDFroter(Resource):
             total_pages = reader.getNumPages()
 
             # page inbound check
-            if page_num > total_pages:
+            if page_num > total_pages or page_num < 1:
                 return ({'Error':'Page number is greater or smaller than total pages'}, 400)
 
             for page in range(total_pages):
