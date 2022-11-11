@@ -4,9 +4,9 @@
 
 ```
 {
-    "file_path" : "FILE_PATH/FILE_NAME.pdf",<br>
-    "angle_of_rotation" : ROTATION_ANGLE,<br>
-    "page_number" : PAGE_NUMBER,<br>
+    "file_path" : "FILE_PATH/FILE_NAME.pdf",
+    "angle_of_rotation" : ROTATION_ANGLE,
+    "page_number" : PAGE_NUMBER,
 }
 ```
 
