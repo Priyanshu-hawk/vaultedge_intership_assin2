@@ -14,8 +14,8 @@ class PDFroter(Resource):
             req_data = json.loads(request.data.decode('utf-8'))
 
             file_path = req_data['file_path']
-            rot_angle = req_data['rot_ang']
-            page_num = req_data['page_num']
+            rot_angle = req_data['angle_of_rotation']
+            page_num = req_data['page_number']
 
             # rotate angle check
             if rot_angle not in [90, 180, 270]:

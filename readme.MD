@@ -5,8 +5,8 @@
 ```
 {
     "file_path" : "FILE_PATH/FILE_NAME.pdf",<br>
-    "rot_ang" : ROTATION_ANGLE,<br>
-    "page_num" : PAGE_NUMBER,<br>
+    "angle_of_rotation" : ROTATION_ANGLE,<br>
+    "page_number" : PAGE_NUMBER,<br>
 }
 ```
 
